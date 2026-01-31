@@ -545,10 +545,10 @@
         <div class="stars"></div>
         <div class="setup-container">
             <div style="text-align: center; margin-bottom: 20px;">
-                <div style="font-size: 48px; margin-bottom: 10px;">🎁</div>
+                <div style="font-size: 32px; margin-bottom: 10px;">🎁</div>
                 <h1>Prepare a Birthday Surprise</h1>
             </div>
-            <p>Create a special birthday experience for your loved one!</p>
+            <p style="text-align: center;">Create a special birthday experience for your loved one!</p>
             
             <div class="form-group">
                 <label>Your Lover's Name *</label>
@@ -831,6 +831,7 @@
             const carpet = new THREE.Mesh(carpetGeometry, carpetMaterial);
             carpet.rotation.x = -Math.PI / 2;
             carpet.position.y = -0.14;
+            carpet.position.z = -3;
             carpet.receiveShadow = true;
             scene.add(carpet);
 
@@ -843,6 +844,7 @@
             const carpetBorder = new THREE.Mesh(carpetBorderGeometry, carpetBorderMaterial);
             carpetBorder.rotation.x = -Math.PI / 2;
             carpetBorder.position.y = -0.13;
+            carpetBorder.position.z = -3;
             scene.add(carpetBorder);
 
             const tableGroup = new THREE.Group();
@@ -957,7 +959,7 @@
                 petal.position.set(
                     (Math.random() - 0.5) * 10,
                     0.22,
-                    (Math.random() - 0.5) * 6
+                    (Math.random() - 0.5) * 6 - 3
                 );
                 petal.rotation.x = -Math.PI / 2;
                 petal.rotation.z = Math.random() * Math.PI * 2;
@@ -965,10 +967,10 @@
             }
 
             const balloonPositions = [
-                { x: -6, z: -7, color: 0xFF69B4 },
-                { x: 6, z: -7, color: 0xFFD700 },
-                { x: -6, z: 1, color: 0x9B59B6 },
-                { x: 6, z: 1, color: 0xFF1493 }
+                { x: -6, z: -10, color: 0xFF69B4 },
+                { x: 6, z: -10, color: 0xFFD700 },
+                { x: -6, z: -2, color: 0x9B59B6 },
+                { x: 6, z: -2, color: 0xFF1493 }
             ];
 
             balloonPositions.forEach(pos => {
@@ -996,10 +998,10 @@
             });
 
             const candlePositions = [
-                { x: -3, z: -6 },
-                { x: 3, z: -6 },
-                { x: -3, z: -0.5 },
-                { x: 3, z: -0.5 }
+                { x: -3, z: -9 },
+                { x: 3, z: -9 },
+                { x: -3, z: -3.5 },
+                { x: 3, z: -3.5 }
             ];
 
             candlePositions.forEach(pos => {
@@ -1049,7 +1051,7 @@
                 star.position.set(
                     (Math.random() - 0.5) * 9,
                     0.23,
-                    (Math.random() - 0.5) * 5
+                    (Math.random() - 0.5) * 5 - 3
                 );
                 star.rotation.x = -Math.PI / 2;
                 star.rotation.z = Math.random() * Math.PI * 2;
@@ -1075,7 +1077,7 @@
                     metalness: 0.3
                 });
                 const heart = new THREE.Mesh(heartGeometry, heartMaterial);
-                heart.position.set(x, -0.13, z);
+                heart.position.set(x, -0.13, z - 3);
                 heart.rotation.x = -Math.PI / 2;
                 heart.rotation.z = Math.random() * Math.PI * 2;
                 scene.add(heart);
