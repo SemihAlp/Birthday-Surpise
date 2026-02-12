@@ -13,3 +13,5 @@ A sweet web-based birthday surprise.
 - HTML5 & CSS3: Semantic markup and responsive layouts using CSS Grid/Flexbox.
 - JavaScript (ES6+): Advanced DOM manipulation, Event Listeners, and dynamic logic control.
 - GitHub Pages: CI/CD processes and project deployment (hosting).
+
+## Preview
