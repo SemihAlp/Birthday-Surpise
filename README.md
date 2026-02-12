@@ -14,7 +14,7 @@ A sweet web-based birthday surprise.
 - JavaScript (ES6+): Advanced DOM manipulation, Event Listeners, and dynamic logic control.
 - GitHub Pages: CI/CD processes and project deployment (hosting).
 
-## Preview
+## Preview:
 <table>
   <tr>
     <td><img src="1.png" width="600"></td>
