@@ -15,3 +15,21 @@ A sweet web-based birthday surprise.
 - GitHub Pages: CI/CD processes and project deployment (hosting).
 
 ## Preview
+<table>
+  <tr>
+    <td><img src="1.png" width="600"></td>
+    <td><img src="2.png" width="600"></td>
+  </tr>
+  <tr>
+    <td><img src="3.png" width="600"></td>
+    <td><img src="4.png" width="600"></td>    
+  </tr>
+  <tr>
+    <td><img src="5.png" width="600"></td>
+    <td><img src="6.png" width="600"></td>
+  </tr>
+    <tr>
+    <td><img src="7.png" width="600"></td>
+    <td><img src="8.png" width="600"></td>
+  </tr>
+</table>
