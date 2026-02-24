@@ -1,7 +1,7 @@
 # Birthday-Surpise
 A sweet web-based birthday surprise.
 
-🔗 **Prepare a birthday surprize!:** https://semihalp.github.io/Birthday-Surpise/
+🔗 **Prepare a birthday surprise!:** https://semihalp.github.io/Birthday-Surpise/
 
 ## Features:
 - Dynamic Content Creation: Users can fully personalize the webpage by inputting custom names, uploading photos, and writing heartfelt letters.
